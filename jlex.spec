@@ -1,6 +1,6 @@
 %define name            jlex
 %define version         1.2.6
-%define release         4.2
+%define release         4.3
 %define section		free
 %define gcj_support	1
 
