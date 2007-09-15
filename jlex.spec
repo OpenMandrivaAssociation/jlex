@@ -1,6 +1,6 @@
 %define name            jlex
 %define version         1.2.6
-%define release         4.3
+%define release         4.4
 %define section		free
 %define gcj_support	1
 
@@ -21,8 +21,6 @@ BuildRequires:  ant
 BuildRequires:  jpackage-utils > 0:1.5
 BuildRequires:  sed
 %if %{gcj_support}
-Requires(post): java-gcj-compat
-Requires(postun): java-gcj-compat
 BuildRequires:  java-gcj-compat-devel
 %else
 BuildArch:      noarch
