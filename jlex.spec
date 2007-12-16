@@ -1,6 +1,6 @@
 %define name            jlex
 %define version         1.2.6
-%define release         4.4
+%define release         4.5
 %define section		free
 %define gcj_support	1
 
@@ -18,7 +18,7 @@ Source1:        %{name}-%{version}.build.xml
 Patch0:         %{name}-%{version}.static.patch
 URL:            http://www.cs.princeton.edu/~appel/modern/java/JLex/
 BuildRequires:  ant
-BuildRequires:  jpackage-utils > 0:1.5
+BuildRequires:  java-rpmbuild > 0:1.5
 BuildRequires:  sed
 %if %{gcj_support}
 BuildRequires:  java-gcj-compat-devel
