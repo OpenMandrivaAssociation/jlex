@@ -98,3 +98,58 @@ rm -rf $(readlink -f %{_javadocdir}/%{name}) %{_javadocdir}/%{name} || :
 %defattr(-,root,root,-)
 %{_javadocdir}/%{name}
 
+
+
+%changelog
+* Sun Nov 27 2011 Guilherme Moro <guilherme@mandriva.com> 1.2.6-13
++ Revision: 734051
+- rebuild
+- imported package jlex
+
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0:1.2.6-4.7mdv2011.0
++ Revision: 619830
+- the mass rebuild of 2010.0 packages
+
+* Wed Sep 02 2009 Christophe Fergeau <cfergeau@mandriva.com> 0:1.2.6-4.6mdv2010.0
++ Revision: 425463
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <blino@mandriva.org> 0:1.2.6-4.5mdv2009.0
++ Revision: 140829
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Dec 16 2007 Anssi Hannula <anssi@mandriva.org> 0:1.2.6-4.5mdv2008.1
++ Revision: 120945
+- buildrequire java-rpmbuild, i.e. build with icedtea on x86(_64)
+
+* Sat Sep 15 2007 Anssi Hannula <anssi@mandriva.org> 0:1.2.6-4.4mdv2008.0
++ Revision: 87437
+- rebuild to filter out autorequires of GCJ AOT objects
+- remove unnecessary Requires(post) on java-gcj-compat
+
+* Sun Sep 09 2007 Pascal Terjan <pterjan@mandriva.org> 0:1.2.6-4.3mdv2008.0
++ Revision: 82793
+- update to new version
+
+
+* Thu Mar 15 2007 Christiaan Welvaart <spturtle@mandriva.org> 1.2.6-4.2mdv2007.1
++ Revision: 144246
+- rebuild for 2007.1
+- Import jlex
+
+* Sun Jul 23 2006 David Walluck <walluck@mandriva.org> 0:1.2.6-4.1mdv2007.0
+- bump release
+
+* Sun Jun 04 2006 David Walluck <walluck@mandriva.org> 0:1.2.6-2.2mdv2007.0
+- rebuild for libgcj.so.7
+- aot-compile
+
+* Tue May 10 2005 David Walluck <walluck@mandriva.org> 0:1.2.6-2.1mdk
+- release
+
+* Tue Aug 24 2004 Randy Watler <rwatler at finali.com> - 1.2.6-2jpp
+- Rebuild with ant-1.6.2
+
