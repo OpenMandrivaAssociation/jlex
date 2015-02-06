@@ -30,7 +30,7 @@
 
 Name:           jlex
 Version:        1.2.6
-Release:        13
+Release:        14
 Summary:        A Lexical Analyzer Generator for Java
 License:        BSD
 Group:          Development/Java
