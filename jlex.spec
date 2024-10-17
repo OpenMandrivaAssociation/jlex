@@ -37,7 +37,7 @@ Group:          Development/Java
 Source0:        http://www.cs.princeton.edu/~appel/modern/java/JLex/Archive/%{version}/Main.java
 Source1:        %{name}-%{version}.build.xml
 Patch0:         %{name}-%{version}.static.patch
-URL:            http://www.cs.princeton.edu/~appel/modern/java/JLex/
+URL:            https://www.cs.princeton.edu/~appel/modern/java/JLex/
 
 BuildRequires: ant
 BuildRequires: java-devel
